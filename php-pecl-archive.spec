@@ -11,6 +11,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	1b121440b2c460b2a1af46e31f23e46e
 URL:		http://pecl.php.net/package/archive/
+BuildRequires:	libarchive-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0

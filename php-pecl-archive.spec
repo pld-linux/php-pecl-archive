@@ -2,12 +2,11 @@
 %define		_status		beta
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
-
 Summary:	%{_modname} - manipulate tar/cpio archives
 Summary(pl):	%{_modname} - obróbka archiwów tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -15,7 +14,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 URL:		http://pecl.php.net/package/archive/
 BuildRequires:	libarchive-devel
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.254
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}

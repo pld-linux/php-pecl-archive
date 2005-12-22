@@ -6,7 +6,7 @@ Summary:	%{_modname} - manipulate tar/cpio archives
 Summary(pl):	%{_modname} - obróbka archiwów tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
-Release:	5
+Release:	6
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz

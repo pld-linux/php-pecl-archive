@@ -4,11 +4,12 @@ Summary:	%{_modname} - manipulate tar/cpio archives
 Summary(pl):	%{_modname} - obróbka archiwów tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
-Release:	6
+Release:	7
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	1b121440b2c460b2a1af46e31f23e46e
+Patch0:		%{name}-php52.patch
 URL:		http://pecl.php.net/package/archive/
 BuildRequires:	libarchive-devel
 BuildRequires:	php-devel >= 3:5.0.0
@@ -32,6 +33,8 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
+cd %{_modname}-%{version}
+%patch0 -p0
 
 %build
 cd %{_modname}-%{version}

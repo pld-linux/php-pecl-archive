@@ -1,7 +1,7 @@
 %define		_modname	archive
 %define		_status		beta
 Summary:	%{_modname} - manipulate tar/cpio archives
-Summary(pl.UTF-8):   %{_modname} - obróbka archiwów tar/cpio
+Summary(pl.UTF-8):	%{_modname} - obróbka archiwów tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	7

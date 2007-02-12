@@ -1,7 +1,7 @@
 %define		_modname	archive
 %define		_status		beta
 Summary:	%{_modname} - manipulate tar/cpio archives
-Summary(pl):	%{_modname} - obrÛbka archiwÛw tar/cpio
+Summary(pl.UTF-8):   %{_modname} - obr√≥bka archiw√≥w tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	7
@@ -25,9 +25,9 @@ libarchive.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Rozszerzenie archive pozwala na odczyt i zapis archiwÛw tar oraz cpio
-przy uøyciu biblioteki libarchive.
+%description -l pl.UTF-8
+Rozszerzenie archive pozwala na odczyt i zapis archiw√≥w tar oraz cpio
+przy u≈ºyciu biblioteki libarchive.
 
 To rozszerzenie ma w PECL status: %{_status}.
 

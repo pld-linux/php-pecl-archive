@@ -5,7 +5,7 @@ Summary(pl.UTF-8):	%{_modname} - obróbka archiwów tar/cpio
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	9
-License:	PHP 2.02
+License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	1b121440b2c460b2a1af46e31f23e46e

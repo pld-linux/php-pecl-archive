@@ -5,7 +5,7 @@ Summary:	%{modname} - manipulate tar/cpio archives
 Summary(pl.UTF-8):	%{modname} - obróbka archiwów tar/cpio
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.2
-Release:	17
+Release:	18
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -17,7 +17,7 @@ BuildRequires:	libarchive-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Provides:	php(%{modname}) = %{version}
-Obsoletes:	php-pecl-archive < 0.2-16
+Obsoletes:	php-pecl-archive < 0.2-17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
